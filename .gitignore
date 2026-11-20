@@ -1,0 +1,30 @@
+# Signing keys and sensitive files
+*.keystore
+*.jks
+*.p12
+*.pfx
+*.pem
+*.key
+*.asc
+
+# Credentials
+.env
+.env.*
+*token*
+*secret*
+*password*
+*credential*
+
+# Backups and temporary files
+*.bak
+*.backup
+*.part
+
+# Build artifacts
+*.apk
+*.aab
+build/
+.gradle/
+.idea/
+**/local.properties
+.DS_Store
