@@ -1,0 +1,14 @@
+# НЕРАБОЧИЙ ШАБЛОН. Не публиковать под именем manifest.txt до явного утверждения APK владельцем.
+# Заполняется только из реально собранного APK через tools/release_manifest.py закрытого проекта.
+# Плейсхолдеры намеренно невалидны: телефон не должен считать это обновлением.
+channel=stable
+version_code=0
+version_name=NOT_PUBLISHED
+source_commit=REPLACE_WITH_REAL_COMMIT_SHA
+apk_url=REPLACE_WITH_PUBLIC_HTTPS_RELEASE_ASSET_URL
+apk_size=0
+apk_sha256=REPLACE_WITH_REAL_APK_SHA256
+cert_sha256=REPLACE_WITH_VERIFIED_SIGNING_CERT_SHA256
+approved_by=
+approved_at=
+notes=EXAMPLE_ONLY_NOT_A_LIVE_RELEASE
